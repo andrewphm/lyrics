@@ -1,10 +1,8 @@
 import lyricsgenius
 import os
-from dotenv import load_dotenv
 import re
 # generate an api key and paste it
 # https://genius.com/api-clients
-load_dotenv()
 
 genius_access_token = 'HjDCLDj-PpUHvjWEf9-9Zxmu5bg9i44EuPM6Pp_20qPlAt_7hmfbGEzmX4kHffsT'
 genius = lyricsgenius.Genius(genius_access_token)

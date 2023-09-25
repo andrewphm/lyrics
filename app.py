@@ -38,4 +38,4 @@ def drake():
     return render_template('lyrics.html', lyrics=lyrics_html, image=image)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(port=5000, debug=True)
